@@ -1,12 +1,12 @@
 body {
 	background-color: white;
 	color: #000099;
-	font-family: Arial;
+	font-family: "Arial", sans-serif;
 }
 
 h1 {
 	color: red;
-	font-family: Times New Roman;
+	font-family: "Times New Roman", serif;
 }
 
 a {
