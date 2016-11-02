@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-size: 250%;
+	font-family: Arial;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+/* default hyperlink state */
+a:link {color: red}
+
+/* mouse over link */
+a:hover {
+	color: yellow;
+	background-color: red;
+	text-decoration: none;
+}
+
+/* visited hyperlink state */
+a:visited {color: gray}
