@@ -1,0 +1,45 @@
+table {
+    font-family: Times New Roman, sans-serif;
+    border-collapse: collapse;
+    width: 400px;
+    color: white;
+	background-color: black;
+	position: relative;
+	left: -240px;
+	 
+ }
+td, th {
+   border: 2px solid;
+   text-align: left;
+   padding: 8px; 
+   border-color: white;
+ }
+
+ video {
+    display: block;
+    margin: 0 auto;
+ }
+body {
+   background-color: red;
+}
+
+img {
+	float: left;
+	position: relative;
+	top: -200px;
+	left: 100px;
+}
+h1 {
+    color: white;
+}
+
+p {
+	position:relative; 
+	text-align: center;
+	bottom: 0px; 
+	color: white;
+}
+
+.div1 {
+	clear: both;
+}
