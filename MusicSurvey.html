@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="MusicSurvey.css">
+	<title>Music Survey</title>
+</head>
+
+<body>
+	<h1>Music Survey</h1>
+	<br><br>
+	<form action="http://www.markmurtha.com/csis128/readform.asp">
+	Name:<input type="text" name="Name" id="Name" required="required">
+	<br><br>
+	Email:<input type="text"  name="Email" id="Email" required="required">
+	<br><br><br>
+	
+	<fieldset>
+	<legend>Select Your Favorite Types of Music</legend>
+	<input type="checkbox" name="Rock" id="Rock" value="Rock">Rock<br>
+	<input type="checkbox" name="Pop"  id="Pop"  value="Pop">Pop<br>
+	<input type="checkbox" name="Rap"  id="Rap"  value="Rap">Rap<br>
+	<input type="checkbox" name="Country" id="Country" value="Country">Country<br>
+	<input type="checkbox" name="Classical" id="Classical" value="Classical">Classical<br>
+	<input type="checkbox" name="Electronic" id="Electronic" value="Electronic">Electronic<br>
+	<input type="checkbox" name="Other" id="Other" value="Other">Other<br>
+	</fieldset>
+	<br><br>
+	
+	<fieldset>
+	<legend>Select how often you purchase music</legend>
+	<input type="radio" name="BuyMusic" id="Daily" value="Daily">Daily<br>
+	<input type="radio" name="BuyMusic" id="Weekly" value="Weekly">Weekly<br>
+	<input type="radio" name="BuyMusic" id="Monthly" value="Monthly">Monthly<br>
+	<input type="radio" name="BuyMusic" id="Yearly" value="Yearly">Yearly<br>
+	<input type="radio" name="BuyMusic" id="Never" value="Never">Never<br>
+	</fieldset>
+	<br><br>
+	
+	<strong>Where do you listen to music?</strong><br>
+	<select size="3" name="MusicLocation" id="MusicLocation">
+		<option value="Gym">Gym</option>
+		<option value="Home">Home</option>
+		<option value="Car">In the car</option>
+		<option value="Work">At work</option>
+		<option value="Dont">I don't listen to music</option>
+	</select>
+	<br><br>
+	
+	<strong>What role does music play in your life?:</strong><br>
+	<textarea name="musicroll" id="musicroll" cols="60" rows="3"> </textarea>
+	<br><br>
+	
+	<input type="submit"><input type="reset">
+	</form>
+	
+	<div class="footer"><small>Adam Boehm - <a href="mailto:S1189481@student.mcckc.edu" target="_blank"> Email</a> </small></div>
+	
+</body>
+</html>
