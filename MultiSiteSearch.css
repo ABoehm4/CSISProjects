@@ -1,0 +1,27 @@
+table {
+	border-style: inset;
+	border-color: #333;
+	padding: 10px;
+	margin: 20px;
+}
+
+tr, td {
+	vertical-align: top;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 200%;
+}
+
+body {
+	background-color: Wheat;
+}
+
+.footer {
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	width: 95%;
+}
