@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="chapter14.css">
+	<title>Chapter 14 Project</title>
+<script>
+function validateEmail() {
+    var x = document.forms["form"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+</head>
+
+<body>
+	<h1 align="center">Chapter 14 Project</h1>
+
+<form name="form" method="post" action="http://www.markmurtha.com/csis128/readform.asp" onsubmit=" return validateEmail();">
+	Name: <br><input type="text" name="name" id="name" required>
+	<br>
+	Email Address: <br><input type="text" name="email" id="email" required>
+	<br><br>
+	<input type="submit">
+	<input type="reset">
+</form>
+
+<div class="footer"><small>Adam Boehm - <a href="mailto:S1189481@student.mcckc.edu" target="_blank"> Email</a> </small></div>
+
+</body>
+</html>
