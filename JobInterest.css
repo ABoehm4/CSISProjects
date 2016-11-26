@@ -1,0 +1,43 @@
+.footer {
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	width: 95%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 75%;
+	font-family: Times New Roman;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	text-align: center;
+	border: 1px solid black;
+	padding: 5px;
+	background-color: #ff6633;
+	font-size: 150%;
+}
+tr, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 200%;
+}
+
+tr:nth-child(even) {
+	background-color: #ffc6b3;
+}	
+tr:nth-child(odd) {
+	background-color: #ffece6;
+}
+
+img {
+	float: left;
+	position: absolute;
+}
