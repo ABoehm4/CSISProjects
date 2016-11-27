@@ -1,0 +1,62 @@
+body {
+	background-color: #98b95f;
+}
+
+#bg {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.Nav {
+	text-align: center;
+}
+
+#header ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #6C7570;
+}
+
+#header li {
+	display: inline-block;
+}
+
+#header li a {
+	display:inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+	font-weight: bold;
+	
+}
+
+#header li a:hover {
+	background-color: #b3b3b3;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.mytext {
+    width: 200px;
+}

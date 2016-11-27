@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="ContactIT.css">
+	<meta name="viewport" content="width=devide-width, initial-scale=1.0">
+	<title>Contact</title>
+
+<script>
+function validateEmail() {
+    var x = document.forms["form"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+</head>
+
+<body>
+<div id="bg">
+<header>
+<img src="header.jpg" alt="US branch coins"/>
+</header>
+<div class="Nav" id="header">
+	<ul>
+		<li><a class="active" href="https://aboehm4.github.io/CSISProjects/MilitaryHome.html">Home</a></li>
+		<li><a href="https://aboehm4.github.io/CSISProjects/ArmyIT.html">Army</a></li>
+		<li><a href="https://aboehm4.github.io/CSISProjects/NavyIT.html">Navy</a><li>
+		<li><a href="https://aboehm4.github.io/CSISProjects/AirForceIT.html">Air Force</a></li>
+		<li><a href="https://aboehm4.github.io/CSISProjects/MarineIT.html">Marine</a></li>
+		<li><a href="https://aboehm4.github.io/CSISProjects/ContactIT.html">Contacts</a></li>
+	</ul>
+</div>
+<h1>Contacts</h1>
+<p align="center">Send me an email if you have any questions.</p>
+<!--- Would use PHP to have the form send an email correctly, but github does not support PHP --->
+
+<form name="form" method="post" action="mailto:S1189481@student.mcckc.edu?subject=Question regarding Military IT" enctype="text/plain" onsubmit=" return validateEmail();"></a>
+	Name: <br>
+	<input type="text" name="name"required>
+	<br>
+	Email Address: <br>
+	<input type="text" name="email"required>
+	<br><br>
+	Comments:<br>
+	<textarea name="Comments" rows="4" cols="60" required></textarea>
+	<br>
+	<input type="submit" value="Send Now"/>
+	<input type="reset" value="Reset">
+</form>
+
+<p align="center">Search for an Navy Recruiter below by entering your Zip Code</p>
+<div class="form">
+	<form action="https://www.navy.com/locator.html" method="post" target="_blank" id="find-a-recruiter" class="validity" enctype="multipart/form-data"/>
+	<input type="text" id="postalCode" name="postalCode" maxlength="5" size="20"  class="mytext"/>
+	<input type="submit" name="Search"/>
+	</form>
+</form></div>
+<br>
+
+<p align="center">Search for an Army Recruiter by entering your Zip Code</p>
+<div class="form">
+<form action="http://www.google.com/search" method="get" target="_blank"/>
+	<input type="text" name="q" value="Army Recruiter near" class="mytext"/>
+	<input type="submit" name="Search"/>
+</form></div>
+
+<p align="center">Search for an Air Force Recruiter by entering your Zip Code</p>
+<div class="form">
+<form action="http://www.google.com/search" method="get" target="_blank"/>
+	<input type="text" name="q" value="Air Force Recruiter near" class="mytext"/>
+	<input type="submit" name="Search"/>
+</form></div>
+
+<p align="center">Search for a Marine Recruiter by entering your Zip Code</p>
+<div class="form">
+<form action="http://www.google.com/search" method="get" target="_blank"/>
+	<input type="text" name="q" value="Marine Recruiter near" class="mytext"/>
+	<input type="submit" name="Search"/>
+</form></div>
+<br>
+
+
+
+
+</div>
+</body>
+</html>
