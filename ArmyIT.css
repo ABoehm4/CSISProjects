@@ -63,6 +63,10 @@ img {
 	display: inline-block;
 }
 
+#float p {
+	padding-right: 20px;	
+}
+
 table {
 	border-collapse: collapse;
 	width: 50%;
