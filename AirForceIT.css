@@ -66,6 +66,10 @@ h3 {
 	display: inline-block;
 }
 
+#float p {
+	padding-right: 15px;	
+}
+
 
 table {
 	border-collapse: collapse;
