@@ -67,7 +67,8 @@ h3 {
 }
 
 #float p {
-	padding-right: 30px;	
+	padding-right: 30px;
+	display: block;
 }
 
 
