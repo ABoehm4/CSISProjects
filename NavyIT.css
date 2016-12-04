@@ -52,12 +52,17 @@ img {
 	background-color: #b3b3b3;
 }
 
-#float{
+
+#float img {
 	float: left;
 	margin: 0 0 0 30px;
 	padding-right: 2em;
 	position: relative;
 }
+
+
+
+
 
 table {
 	border-collapse: collapse;
@@ -83,3 +88,15 @@ th {
     display: block;
     margin: 0 auto;
  }
+ 
+#bg ul {
+	overflow: hidden;
+ }
+
+#bg p {
+	padding-right: 30px;
+}
+
+#bg ul li {
+	padding-right: 30px;
+}
