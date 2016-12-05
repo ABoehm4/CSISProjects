@@ -89,14 +89,26 @@ th {
     margin: 0 auto;
  }
  
-#bg ul {
+#qual h3 {padding-left: 265px;}
+#qual ul {padding-left: 310px;}
+#qual {
+	border-bottom: 1px groove;
+	display: inline-block;
+	border-width: thin;
+	width: 100%;
+
+}
+
+ 
+#float ul {
 	overflow: hidden;
  }
 
-#bg p {
+#float p {
 	padding-right: 30px;
 }
 
-#bg ul li {
+#float ul li {
 	padding-right: 30px;
 }
+
