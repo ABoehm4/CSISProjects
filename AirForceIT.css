@@ -100,3 +100,13 @@ a:hover {background-color: #98b95f; color: black;}
     display: block;
     margin: 0 auto;
  }
+ 
+#qual h3 {padding-left: 265px;}
+#qual ul {padding-left: 310px;}
+#qual {
+	border-bottom: 1px groove;
+	display: inline-block;
+	border-width: thin;
+	width: 100%;
+
+}
